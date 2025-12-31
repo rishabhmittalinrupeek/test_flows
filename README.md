@@ -8,7 +8,7 @@
 
 ### Prerequisite 
 - Maestro requires Java 17 or higher to be installed on your system 
-- Run: ```bash "java -version" ``` to check 
+- Run: ```java -version``` to check 
 
 ### Installation 
 
@@ -24,7 +24,7 @@ Physical Device.
 
 ## Studio
 - maestro studio is a GUI tool to create and run test flows 
-- Run: ```bash "maestro studio" ``` 
+- Run: ```maestro studio``` 
 
 ## Flow Creation 
 - Start simple in YAML and run it on an emulator or simulator 
@@ -45,7 +45,7 @@ appId: "com.rupeek.customer.debug"
 - assertVisible: "Get Started" 
 - tapOn: "Get Started" 
 ```
-- Run: ```bash "maestro test flow.yaml" ``` 
+- Run: ```maestro test flow.yaml``` 
 
 
 
@@ -53,9 +53,10 @@ appId: "com.rupeek.customer.debug"
 - Maestro can cover both UI and API testing, ​​by combining these layers into a single 
 end-to-end (E2E) workflow.
 
-### Layer​ ​ Maestro's Approach 
-**UI (Apex)**​ Navigates the app/web like a real user using YAML.  
-**API/Data** ​ Uses runScript and http calls to validate data behind the scenes. 
+| Layer | Maestro's Approach  |
+|:------|:---------------------|
+| UI (Apex)| Navigates the app/web like a real user using YAML.   	|   
+| API/Data | Uses runScript and http calls to validate data behind the scenes. |
 
 ```yaml
 # flow.yaml 
