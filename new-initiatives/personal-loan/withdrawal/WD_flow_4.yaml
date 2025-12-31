@@ -11,5 +11,5 @@ appId: "com.rupeek.customer.debug"
 - assertVisible: "Continue"
 - tapOn: "Continue"
 
-- runFlow: "PL_flow_9.yaml"
+- runFlow: "WD_flow_5.yaml"
 

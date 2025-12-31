@@ -1,4 +1,4 @@
-# Upcoming EMIs- UI Test Flow -> User has taken the loan
+# Upcoming EMIs-> User has taken the loan
 
 appId: "com.rupeek.customer.debug"
 ---
@@ -16,4 +16,4 @@ appId: "com.rupeek.customer.debug"
 
 
 
-- runFlow: "PL_flow_4.yaml"
+- runFlow: "RP_flow_3.yaml"

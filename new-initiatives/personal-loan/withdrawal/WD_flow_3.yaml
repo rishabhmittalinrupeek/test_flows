@@ -1,7 +1,5 @@
-# New Offer Dashboard-> Clicking the Borrow Button
-
+# New Offer Dashboard Page
 # Offer Page
-
 
 appId: "com.rupeek.customer.debug"
 ---
@@ -31,5 +29,5 @@ appId: "com.rupeek.customer.debug"
 - assertVisible: "Choose Your Bank Account"
 - tapOn: "Choose Your Bank Account"
 
-- runFlow: "PL_flow_8.yaml"
+- runFlow: "WD_flow_4.yaml"
 

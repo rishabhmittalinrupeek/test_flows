@@ -1,0 +1,20 @@
+# Home Dashboard- PL Offer available
+appId: "com.rupeek.customer.debug"
+---
+- assertVisible:
+    id: "com.rupeek.customer.debug:id/personal_loan_img"
+- tapOn:
+    id: "com.rupeek.customer.debug:id/personal_loan_img"
+
+# PL Offer Dashboard Page (Verification) 
+- assertVisible: "Available Balance"
+- assertVisible: "Borrow"
+- assertVisible: "Limit Utilized"
+- assertVisible: "Upcoming EMIs"
+- assertVisible: "Pay Now"
+- assertVisible: "Transactions"
+- runFlow: "RP_flow_2.yaml"
+
+
+
+

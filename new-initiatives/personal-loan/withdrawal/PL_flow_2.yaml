@@ -1,7 +1,0 @@
-appId: "com.rupeek.customer.debug"
----
-- assertVisible: "Borrow"
-- tapOn: "Borrow"
-
-
-- runFlow: "PL_flow_7.yaml"

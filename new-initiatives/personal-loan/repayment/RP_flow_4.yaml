@@ -11,8 +11,6 @@ appId: "com.rupeek.customer.debug"
 - assertVisible: "Recommended"
 - assertVisible: "Canara Bank Netbanking"
 
-- runFlow: "PL_flow_6.yaml"
+- runFlow: "RP_flow_5.yaml"
 # - tapOn: "Canara Bank Netbanking"
-
-
 

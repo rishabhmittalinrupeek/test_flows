@@ -1,0 +1,10 @@
+# Borrow Button, available to user with PL offer 
+appId: "com.rupeek.customer.debug"
+---
+- runFlow:
+    when: 
+      assertVisible: "Borrow"
+    then:
+      tapOn: "Borrow"
+
+- runFlow: "WD_flow_3.yaml"
