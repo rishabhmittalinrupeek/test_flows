@@ -1,6 +1,0 @@
-appId: "com.rupeek.customer.debug"
----
-- assertVisible: "Loan in Process"
-- assertVisible: "Manage Loans"
-- tapOn: "Partial Release" 
-

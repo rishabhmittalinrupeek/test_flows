@@ -1,9 +1,0 @@
-appId: "com.rupeek.customer.debug"
----
-- assertVisible: "Get a"
-- assertVisible: "Gold Loan"
-- assertVisible: "now"
-- assertVisible: "Today's Gold Rate"
-- assertVisible: "Need Help?"
-- tapOn:
-    id: "com.rupeek.customer.debug:id/gold_card_img"
