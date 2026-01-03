@@ -1,10 +1,19 @@
 # Home Dashboard- PL Offer available
-
 appId: "com.rupeek.customer.debug"
 ---
-- assertVisible:
-    id: "com.rupeek.customer.debug:id/personal_loan_img"
-- tapOn:
-    id: "com.rupeek.customer.debug:id/personal_loan_img"
+- runScript: 
+    file: "scripts/WD_script_1.js"
 
-- runFlow: "WD_flow_2.yaml"
+- assertTrue: ${output.status == 200}
+- assertTrue: ${output.body.hasActiveOffer == true}
+
+- runFlow: 
+    when: 
+      true: ${output.body.hasActiveOffer == true}
+    commands:
+      - assertVisible:
+          id: "com.rupeek.customer.debug:id/personal_loan_img"
+      - tapOn:
+          id: "com.rupeek.customer.debug:id/personal_loan_img"
+
+# - runFlow: "WD_flow_2.yaml"
